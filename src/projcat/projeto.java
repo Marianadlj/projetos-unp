@@ -5,14 +5,14 @@ public class projeto {
         Gato ragdool;
         ragdool = new Gato();
 
-        ragdool.cor = "Branco";
-        Gato.nome = "Felix";
-        ragdool.rabo = true;
-        ragdool.raca = "Ragdool";
-        ragdool.pelo = true;
+        ragdool.setCor("Branco");
+        Gato.setNome("Felix");
+        ragdool.setRabo(true);
+        ragdool.setRaca("Ragdool");
+        ragdool.setPelo(true);
 
-        System.out.println("Nome do gato Ragdool: " + Gato.nome);
-        System.out.println("Cor do gato Ragdool: " + ragdool.cor);
+        System.out.println("Nome do gato Ragdool: " + Gato.getNome());
+        System.out.println("Cor do gato Ragdool: " + Gato.getCor());
 
         ragdool.coca();
         ragdool.bebe();
@@ -20,14 +20,14 @@ public class projeto {
         Gato siames;
         siames = new Gato();
 
-        siames.cor = "Bege";
-        Gato.nome = "Lucy";
-        siames.rabo = true;
-        siames.raca = "Siamês";
-        siames.pelo = true;
+        siames.setCor("Bege");
+        Gato.setNome("Lucy");
+        siames.setRabo(true);
+        siames.setRaca("Siamês");
+        siames.setPelo(true);
 
-        System.out.println("Nome do gato Siamês: " + Gato.nome);
-        System.out.println("Cor do gato Siamês: " + siames.cor);
+        System.out.println("Nome do gato Siamês: " + Gato.getNome());
+        System.out.println("Cor do gato Siamês: " + Gato.getCor());
 
         siames.come();
         siames.dorme();
@@ -35,14 +35,14 @@ public class projeto {
         Gato persa;
         persa = new Gato();
 
-        persa.cor = "Cinza";
-        Gato.nome = "Flofi";
-        persa.rabo = true;
-        persa.raca = "Persa";
-        persa.pelo = true;
+        persa.setCor("Cinza");
+        Gato.setNome("Flofi");
+        persa.setRabo(true);
+        persa.setRaca("Persa");
+        persa.setPelo(true);
 
-        System.out.println("Nome do gato Persa: " + Gato.nome);
-        System.out.println("Cor do gato Persa: " + persa.cor);
+        System.out.println("Nome do gato Persa: " + Gato.getNome());
+        System.out.println("Cor do gato Persa: " + Gato.getCor());
 
         persa.lambe();
         persa.dorme();

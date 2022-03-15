@@ -1,11 +1,11 @@
 package projcat;
 
 public class Gato {
-    String cor;
-    static String nome;
-    String raca;
-    boolean pelo;
-    boolean rabo;
+    private static String cor;
+    private static String nome;
+    private String raca;
+    private boolean pelo;
+    private boolean rabo;
 
     void dorme (){
         System.out.println("Novidade! " + Gato.nome + " está dormindo.");
@@ -27,4 +27,43 @@ public class Gato {
         System.out.println(Gato.nome + " está bebendo leite. Que gracinha!");
     }
 
+    public static String getCor() {
+        return cor;
+    }
+
+    public void setCor(String cor) {
+        Gato.cor = cor;
+    }
+
+    public static String getNome() {
+        return nome;
+    }
+
+    public static void setNome(String nome) {
+        Gato.nome = nome;
+    }
+
+    public String getRaca() {
+        return raca;
+    }
+
+    public void setRaca(String raca) {
+        this.raca = raca;
+    }
+
+    public boolean isPelo() {
+        return pelo;
+    }
+
+    public void setPelo(boolean pelo) {
+        this.pelo = pelo;
+    }
+
+    public boolean isRabo() {
+        return rabo;
+    }
+
+    public void setRabo(boolean rabo) {
+        this.rabo = rabo;
+    }
 }
